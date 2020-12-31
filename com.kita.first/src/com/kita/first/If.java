@@ -1,6 +1,6 @@
 package com.kita.first;
 
-import com.sun.tools.sjavac.server.SysInfo;
+
 
 public class If {
 	public static void main(String[] args) {

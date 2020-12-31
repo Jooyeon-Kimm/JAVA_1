@@ -35,6 +35,11 @@ public class Printf {
 		System.out.printf("%s은 월급의 %d%%인 %.0f원을 떼어\n%c 저축은행의 연 이자율 %.2f%%짜리 적금에 넣기로 결심했다.\n" , 
 					name, rate, salary * 0.5, bank, interest_rate);
 		
+		/*
+		boolean bool = true;
+		System.out.printf("%b ",bool);
+		System.out.printf(" %s",bool);
+		*/
 
 	}
 }

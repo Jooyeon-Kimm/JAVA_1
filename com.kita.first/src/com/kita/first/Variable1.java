@@ -1,4 +1,4 @@
-package com.kita.first.practice;
+package com.kita.first;
 
 public class Variable1 {
 

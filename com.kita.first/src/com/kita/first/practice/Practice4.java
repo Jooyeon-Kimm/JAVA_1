@@ -22,5 +22,12 @@ public class Practice4 {
 
 		
 		scan.close();	//scan의 close 메소드로 닫아준다!
+		
+		
+
+		
+		
+		
+		
 	}
 }

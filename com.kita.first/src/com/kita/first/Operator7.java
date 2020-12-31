@@ -20,5 +20,17 @@ public class Operator7 {
 		
 		boolean result3 = "안녕1".equals(str2);	// 변수를 equals 뒤에 두면 더 안정적
 		System.out.println(result3);			// false
+		
+		
+		
+		str1 = "hi";
+		str2 = "hi";
+		String str3 = new String("hi");
+		
+		System.out.println(str1 == str2); 	// true
+		System.out.println(str2 == str3);	// false
+		
+		System.out.println(str1.equals(str3));			// 같은 타입끼리만 비교 가능		// true
+		System.out.println(str1.contentEquals(str3)); 	// 다른 타입끼리도 비교 가능		// true
 	}
 }
